@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Facebook">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
+
+	<parameter name="url" value="https://www.facebook.com/r.php" />
+
+	<test name="Run on IE">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class
+				name="com.facebook.register.Level_12_Register_Login_Assert_Verify" />
+		</classes>
+	</test>
+</suite>

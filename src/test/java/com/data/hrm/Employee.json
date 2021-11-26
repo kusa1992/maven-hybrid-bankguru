@@ -1,0 +1,12 @@
+{
+	"firstname": "Levi",
+	"lastname": "Ackerman",
+	"fullname": "Levi Ackerman",
+	"username": "leviackerman",
+	"password": "automationtest123",
+	"statusValue": "Enabled",
+	"ContactDetail": {
+		"editFirstName": "Jerry",
+		"editLastName":"Tom"
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Live Guru" parallel = "methods" thread-count = "3">
+	<parameter name="url" value="http://live.demoguru99.com/index.php/" />
+
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.liveguru.login.Level_17_Independent_Test" />
+		</classes>
+	</test>
+
+</suite> 

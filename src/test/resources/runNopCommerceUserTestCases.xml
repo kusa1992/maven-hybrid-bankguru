@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="User - Nop Commerce" parallel="tests" thread-count="3">
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
+
+	<listeners>
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+		<listener class-name="reportConfig.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+		<!-- <listener class-name="reportConfig.ReportNGListener" /> -->
+	</listeners>
+
+
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.login.Level_13_Register_Login_Log_Allure" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on CHROME"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.login.Level_13_Register_Login_Log_ReportNG" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+</suite>

@@ -1,0 +1,6 @@
+[INFO ] [2021-11-26 16:52:48,958] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 16:52:57,445] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 16:52:58,471] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-11-26 16:53:39,407] Post-Condition: Close browser 'firefox'
+[INFO ] [2021-11-26 16:53:39,407] OS name = windows 10
+[INFO ] [2021-11-26 16:53:39,407] Driver instance name = windows 10

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Data Table">
+	<parameter name="url"
+		value="https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/" />
+
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.jquery.datatable.Level_09_Data_Table" />
+		</classes>
+	</test>
+
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.jquery.datatable.Level_09_Data_Table" />
+		</classes>
+	</test>
+
+	<test name="Run on EDGE_CHROMIUM">
+		<parameter name="browser" value="edge_chromium" />
+		<classes>
+			<class name="com.jquery.datatable.Level_09_Data_Table" />
+		</classes>
+	</test>
+
+</suite>

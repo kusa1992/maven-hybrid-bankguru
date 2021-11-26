@@ -1,0 +1,99 @@
+[INFO ] [2021-11-26 09:36:29,824] Pre-Condition - Step 01: Open browser 'opera' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 09:36:37,117] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 09:36:40,032] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-11-26 09:36:42,699] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2021-11-26 09:36:43,605] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Hiroko
+[INFO ] [2021-11-26 09:36:43,738] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Balistreri
+[INFO ] [2021-11-26 09:36:43,875] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2021-11-26 09:36:43,920] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-11-26 09:36:44,062] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: theron.dubuque
+[INFO ] [2021-11-26 09:36:44,215] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: zt807uo435ncy6q
+[INFO ] [2021-11-26 09:36:44,369] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: zt807uo435ncy6q
+[INFO ] [2021-11-26 09:36:44,522] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2021-11-26 09:36:44,634] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-11-26 09:36:44,760] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2021-11-26 09:36:47,775] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Hiroko Balistreri
+[INFO ] [2021-11-26 09:36:47,782]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 09:36:47,981]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 09:36:47,981] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2021-11-26 09:36:48,507] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+[INFO ] [2021-11-26 09:36:48,580]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 09:36:48,649]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 09:36:48,726]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 09:36:48,862] Post-Condition: Close browser 'opera'
+[INFO ] [2021-11-26 09:36:48,862] OS name = windows 10
+[INFO ] [2021-11-26 09:36:48,862] Driver instance name = windows 10
+[INFO ] [2021-11-26 09:37:17,439] Pre-Condition - Step 01: Open browser 'ie' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 09:37:21,607] Post-Condition: Close browser 'ie'
+[INFO ] [2021-11-26 09:37:21,607] OS name = windows 10
+[INFO ] [2021-11-26 09:37:21,607] Driver instance name = windows 10
+[INFO ] [2021-11-26 09:37:45,786] Pre-Condition - Step 01: Open browser 'ie' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 09:37:50,847] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 09:38:32,014] Post-Condition: Close browser 'ie'
+[INFO ] [2021-11-26 09:38:32,014] OS name = windows 10
+[INFO ] [2021-11-26 09:38:32,015] Driver instance name = windows 10
+[INFO ] [2021-11-26 09:41:40,182] Pre-Condition - Step 01: Open browser 'ie' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 09:41:44,263] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 09:42:25,428] Post-Condition: Close browser 'ie'
+[INFO ] [2021-11-26 09:42:25,428] OS name = windows 10
+[INFO ] [2021-11-26 09:42:25,428] Driver instance name = windows 10
+[INFO ] [2021-11-26 11:02:50,183] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 11:02:50,622] Post-Condition: Close browser 'firefox'
+[INFO ] [2021-11-26 11:02:50,622] OS name = windows 10
+[INFO ] [2021-11-26 11:02:50,623] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-11-26 11:03:21,812] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 11:03:30,448] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 11:03:32,596] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-11-26 11:03:35,448] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2021-11-26 11:03:36,287] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Scot
+[INFO ] [2021-11-26 11:03:36,374] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Buckridge
+[INFO ] [2021-11-26 11:03:36,449] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2021-11-26 11:03:36,487] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-11-26 11:03:36,754] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: kiesha.herman
+[INFO ] [2021-11-26 11:03:36,846] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: ryl8n1jhi8r
+[INFO ] [2021-11-26 11:03:36,925] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: ryl8n1jhi8r
+[INFO ] [2021-11-26 11:03:36,982] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2021-11-26 11:03:37,050] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-11-26 11:03:38,828] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2021-11-26 11:03:40,416] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Scot Buckridge
+[INFO ] [2021-11-26 11:03:40,951]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 11:03:41,034]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 11:03:41,034] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2021-11-26 11:03:41,485] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+[INFO ] [2021-11-26 11:03:41,562]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 11:03:41,600]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 11:03:41,640]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 11:03:41,774] Post-Condition: Close browser 'firefox'
+[INFO ] [2021-11-26 11:03:41,775] OS name = windows 10
+[INFO ] [2021-11-26 11:03:41,775] Driver instance name = windows 10
+[INFO ] [2021-11-26 16:00:26,542] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 16:00:35,361] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 16:00:37,520] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-11-26 16:00:39,688] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2021-11-26 16:00:40,621] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Lynna
+[INFO ] [2021-11-26 16:00:40,698] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Huels
+[INFO ] [2021-11-26 16:00:40,767] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2021-11-26 16:00:40,805] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-11-26 16:00:41,067] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: jonathon.ledner
+[INFO ] [2021-11-26 16:00:41,124] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: x4m0uo6f9w00omd
+[INFO ] [2021-11-26 16:00:41,208] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: x4m0uo6f9w00omd
+[INFO ] [2021-11-26 16:00:41,257] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2021-11-26 16:00:41,316] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-11-26 16:00:43,363] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2021-11-26 16:00:44,944] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Lynna Huels
+[INFO ] [2021-11-26 16:00:45,484]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 16:00:45,567]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 16:00:45,567] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2021-11-26 16:00:46,018] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+[INFO ] [2021-11-26 16:00:46,097]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 16:00:46,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 16:00:46,171]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-11-26 16:00:46,286] Post-Condition: Close browser 'firefox'
+[INFO ] [2021-11-26 16:00:46,286] OS name = windows 10
+[INFO ] [2021-11-26 16:00:46,287] Driver instance name = windows 10
+[INFO ] [2021-11-26 16:52:48,958] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-11-26 16:52:57,445] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-11-26 16:52:58,471] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2021-11-26 16:53:39,407] Post-Condition: Close browser 'firefox'
+[INFO ] [2021-11-26 16:53:39,407] OS name = windows 10
+[INFO ] [2021-11-26 16:53:39,407] Driver instance name = windows 10

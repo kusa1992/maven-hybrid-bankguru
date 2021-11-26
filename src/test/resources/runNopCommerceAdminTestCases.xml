@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin - Nop Commerce">
+    <parameter name="url" value="https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"/>
+
+    <test name="Run on CHROME">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.nopcommerce.admin.Level_10_Admin_Upload_File"/>
+        </classes>
+    </test>
+</suite>
