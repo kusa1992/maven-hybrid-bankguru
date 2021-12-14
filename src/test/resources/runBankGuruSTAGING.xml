@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Bank Guru" parallel="false">
 
+	<parameter name="url" value="https://demo.guru99.com/v3" />
+
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
@@ -11,7 +13,7 @@
 	</listeners>
 
 	<test name="Run on FIREFOX">
-	<parameter name="browser" value="firefox" />
+	<parameter name="browser" value = "firefox"/>
 		<classes>
 			<class name="com.bankguru.payment.Level_21_Multiple_Enviroment" />
 		</classes>

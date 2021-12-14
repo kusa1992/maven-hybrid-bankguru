@@ -25,6 +25,7 @@ pageUIs/user/nopCommerce/SearchPageUI.class
 commons/BasePageFactory.class
 pageUIs/hrm/EmployeeListPageUI.class
 pageUIs/admin/nopCommerce/LoginPageUI.class
+commons/BaseTest$ENVIRONMENT.class
 pageUIs/hrm/DashboardPageUI.class
 utilities/MailConfig.class
 pageObjects/jQuery/HomePageObject.class
@@ -68,6 +69,7 @@ pageObjects/admin/nopCommerce/PageGeneratorManager.class
 pageObjects/liveGuru/MyDashboardPageObject.class
 pageUIs/jQuery/HomePageUI.class
 pageUIs/admin/nopCommerce/ProductSearchPageUI.class
+enviromentConfig/Environment.class
 pageUIs/bankGuru/HomePageUI.class
 pageObjects/liveGuru/HomePageObject.class
 commons/IPage.class

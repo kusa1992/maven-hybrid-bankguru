@@ -43,6 +43,10 @@ public class BaseTest {
 	private enum BROWSER {
 		CHROME, FIREFOX, IE, SAFARI, EDGE_LEGACY, EDGE_CHROMIUM, H_CHROME, H_FIREFOX, COC_COC, OPERA;
 	}
+	
+	private enum ENVIRONMENT {
+		DEV, TESTING, STAGING, PRODUCTION
+	}
 
 	protected WebDriver getBrowserDriver(String browserName) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
@@ -65,8 +69,8 @@ public class BaseTest {
 	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 		if (browser == BROWSER.FIREFOX) {
-			WebDriverManager.firefoxdriver().setup();
-			//System.setProperty("webdriver.gecko.driver", projectLocation + getSlash("browserDrivers") + "geckodriver");
+			//WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", projectLocation + getSlash("browserDrivers") + "geckodriver");
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, GlobalConstants.PROJECT_PATH + getSlash("browserLogs") + "Firefox.log");
 
@@ -132,6 +136,20 @@ public class BaseTest {
 
 		System.out.println("Driver init at Base Test = " + driver.toString());
 		return driver;
+	}
+	
+	private String getEnvironmentValue(String environmentName) {
+		String envUrl= null;
+		ENVIRONMENT environment = ENVIRONMENT.valueOf(environmentName.toUpperCase());
+		if (environment == ENVIRONMENT.DEV) {
+			envUrl = "https://demo.guru99.com/v1";
+		} else if (environment == ENVIRONMENT.TESTING) {
+			envUrl = "https://demo.guru99.com/v2";
+		} else if (environment == ENVIRONMENT.STAGING) {
+			envUrl = "https://demo.guru99.com/v3";
+		} else if (environment == ENVIRONMENT.PRODUCTION) {
+			envUrl = "https://demo.guru99.com/v4";
+		} return envUrl;
 	}
 
 	public WebDriver getWebDriver() {

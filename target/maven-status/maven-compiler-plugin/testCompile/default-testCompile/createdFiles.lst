@@ -30,6 +30,7 @@ com/jquery/datatable/Level_09_Data_Table.class
 com/bankguru/user/User_04_Invoice.class
 com/data/bankguru/Payment$Withdraw.class
 com/nopcommerce/login/Level_08_Register_Login_Dynamic_Locator.class
+com/bankguru/payment/Level_21_Multiple_Enviroment.class
 com/nopcommerce/login/Level_04_Register_Login_Multiple_Browsers.class
 com/data/hrm/EmployeeData.class
 com/nopcommerce/login/Level_03_Register_Login_Page_Object.class
