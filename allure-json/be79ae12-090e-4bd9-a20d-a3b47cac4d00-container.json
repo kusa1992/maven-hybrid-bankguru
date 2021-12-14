@@ -1,0 +1,1 @@
+{"uuid":"be79ae12-090e-4bd9-a20d-a3b47cac4d00","name":"Run on FIREFOX","children":["7e3e0345-7f86-484a-8494-2a92addd01de"],"befores":[{"name":"deleteAllFilesInAllureJson","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639453669168,"stop":1639453669181}],"afters":[],"links":[],"start":1639453669104,"stop":1639453693555}

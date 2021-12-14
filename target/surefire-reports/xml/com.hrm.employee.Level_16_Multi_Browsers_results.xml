@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on FIREFOX"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.513">
+  <properties />
+  
+  
+            <testcase name="Employee_01_Add_New_Employee" time="10.513" classname="com.hrm.employee.Level_16_Multi_Browsers" />
+      
+</testsuite>
