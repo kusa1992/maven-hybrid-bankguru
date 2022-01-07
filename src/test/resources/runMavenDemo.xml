@@ -11,11 +11,17 @@
 		<listener class-name="reportConfig.ReportNGListener" />
 	</listeners>
 
-
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.hrm.employee.Automation_Demo" />
+		</classes>
+	</test>
+	
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.hrm.employee.Level_16_Live_Coding" />
+			<class name="com.hrm.employee.Automation_Demo" />
 		</classes>
 	</test>
 

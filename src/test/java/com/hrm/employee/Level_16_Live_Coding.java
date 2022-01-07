@@ -192,7 +192,7 @@ public class Level_16_Live_Coding extends BaseTest {
 		verifyEquals(myInfoPage.getTextboxValueByID(driver, "personal_txtEmployeeId"), employeeID);
 	}
 
-	@Test
+	
 	public void Employee_04_Contact_Details() {
 		log.info("Contact_Details_04 - Step 01: Open 'Contact Details' form at sidebar");
 		myInfoPage.openTabAtSideBarByName("Contact Details");
@@ -286,7 +286,7 @@ public class Level_16_Live_Coding extends BaseTest {
 		verifyEquals(myInfoPage.getTextboxValueByID(driver, "contact_emp_oth_email"), Employee.ContactDetails.OTHER_EMAIL);
 	}
 
-	@Test
+	
 	public void Employee_05_Emergency_Contacts() {
 		log.info("Emergency_Contacts_05 - Step 01: Open 'Emergency_Contacts' form at sidebar");
 		myInfoPage.openTabAtSideBarByName("Emergency Contacts");
@@ -348,7 +348,7 @@ public class Level_16_Live_Coding extends BaseTest {
 		myInfoPage.sleepInSecond(2);
 	}
 
-	@Test
+	
 	public void Employee_06_Assigned_Dependents() {
 		log.info("Assigned_Dependents_06 - Step 01: Open 'Assigned_Dependents' form at sidebar");
 		myInfoPage.openTabAtSideBarByName("Dependents");
@@ -409,7 +409,7 @@ public class Level_16_Live_Coding extends BaseTest {
 		myInfoPage.sleepInSecond(2);
 	}
 
-	@Test
+	
 	public void Employee_07_Edit_View_Job() {
 		log.info("Edit_View_Job_07 - Step 01: Login with Admin role: " + Employee.Role.ADMIN_USERNAME + ", " + Employee.Role.ADMIN_PASSWORD);
 		loginPage = myInfoPage.logoutToSystem(driver);
@@ -607,17 +607,17 @@ public class Level_16_Live_Coding extends BaseTest {
 		log.info("Edit_View_Salary_08 - Step 27: Verify Direct Deposit Details are displayed at 'Assigned Salary Components' table");
 	}
 	
-	@Test
+	
 	public void Employee_09_Edit_View_Tax() {
 
 	}
 	
-	@Test
+	
 	public void Employee_10_Qualifications() {
 
 	}
 	
-	@Test
+	
 	public void Employee_11_Search_Employee() {
 
 	}

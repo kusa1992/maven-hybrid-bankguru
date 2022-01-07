@@ -164,7 +164,7 @@
 				<configuration>
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/test/resources/runBankGuruTestCases.xml</file>
+						<file>src/test/resources/runMavenDemo.xml</file>
 					</suiteXmlFiles>
 
 					<!-- Argument -->

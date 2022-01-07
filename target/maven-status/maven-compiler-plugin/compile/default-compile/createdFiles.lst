@@ -2,6 +2,7 @@ reportConfig/ReportNGListener.class
 pageObjects/admin/nopCommerce/DashboardPageObject.class
 utilities/PropertiesConfig.class
 pageObjects/admin/nopCommerce/ProductDetailPageObject.class
+retryConfig/RetryListener.class
 pageUIs/liveGuru/LoginPageUI.class
 pageUIs/user/nopCommerce/UserBasePageUI.class
 pageFactory/nopCommerce/LoginPageObject.class

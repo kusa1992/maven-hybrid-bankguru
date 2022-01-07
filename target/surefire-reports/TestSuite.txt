@@ -1,4 +1,88 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.477 s - in TestSuite
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 324.631 s <<< FAILURE! - in TestSuite
+Employee_01_Add_New_Employee(com.hrm.employee.Automation_Demo)  Time elapsed: 68.237 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='resultTable']/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//table[@id='resultTable']/tbody/tr[1]/td[2]}
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+
+Employee_02_Upload_Avatar(com.hrm.employee.Automation_Demo)  Time elapsed: 49.188 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainMenu']//a[string()='My Info']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+
+Employee_03_Personal_Details(com.hrm.employee.Automation_Demo)  Time elapsed: 40.723 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='sidebar']//a[string()='Personal Details'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='sidebar']//a[string()='Personal Details']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//div[@id='sidebar']//a[string()='Personal Details']}
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+
+Employee_01_Add_New_Employee(com.hrm.employee.Automation_Demo)  Time elapsed: 63.449 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='resultTable']/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //table[@id='resultTable']/tbody/tr[1]/td[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//table[@id='resultTable']/tbody/tr[1]/td[2]}
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+
+Employee_02_Upload_Avatar(com.hrm.employee.Automation_Demo)  Time elapsed: 48.907 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+
+Employee_03_Personal_Details(com.hrm.employee.Automation_Demo)  Time elapsed: 13.502 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//div[@id='sidebar']//a[string()='Personal Details']}
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+

@@ -1,0 +1,56 @@
+[INFO ] [2022-01-06 18:38:34,283] Pre-Condition - Step 01: Open browser 'chrome' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2022-01-06 18:38:44,582] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2022-01-06 18:38:51,330] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2022-01-06 18:38:57,845] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2022-01-06 18:38:59,919] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Magda
+[INFO ] [2022-01-06 18:39:01,420] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Luettgen
+[INFO ] [2022-01-06 18:39:02,803] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2022-01-06 18:39:02,931] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2022-01-06 18:39:04,239] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: milton.adams
+[INFO ] [2022-01-06 18:39:05,765] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:39:07,190] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:39:08,515] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2022-01-06 18:39:08,668] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2022-01-06 18:39:10,800] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2022-01-06 18:39:15,750] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Magda Luettgen
+[INFO ] [2022-01-06 18:39:15,759]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:39:17,093]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:39:17,093] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2022-01-06 18:39:18,786] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+[INFO ] [2022-01-06 18:40:00,792] Upload_Avatar_02 - Step 01: Login with Employee role: milton.adams, j13bdsdmbv
+[INFO ] [2022-01-06 18:40:09,414] Upload_Avatar_02 - Step 02: Open 'Personal Details' page
+[INFO ] [2022-01-06 18:40:50,772] Personal_Details_03 - Step 01: Open 'Personal Details' form at sidebar
+[INFO ] [2022-01-06 18:41:31,883] Post-Condition: Close browser 'chrome'
+[INFO ] [2022-01-06 18:41:31,884] OS name = mac os x
+[INFO ] [2022-01-06 18:41:31,884] Driver instance name = mac os x
+[INFO ] [2022-01-06 18:41:32,310] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2022-01-06 18:41:40,031] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2022-01-06 18:41:46,641] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2022-01-06 18:41:51,130] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2022-01-06 18:41:52,893] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Audrey
+[INFO ] [2022-01-06 18:41:54,049] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Bayer
+[INFO ] [2022-01-06 18:41:55,209] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2022-01-06 18:41:55,314] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2022-01-06 18:41:56,707] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: benton.lindgren
+[INFO ] [2022-01-06 18:41:57,964] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:41:59,142] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:42:00,336] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2022-01-06 18:42:00,417] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2022-01-06 18:42:02,362] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2022-01-06 18:42:06,175] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Audrey Bayer
+[INFO ] [2022-01-06 18:42:06,707]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:42:07,891]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:42:07,891] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2022-01-06 18:42:09,527] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+[INFO ] [2022-01-06 18:42:50,957] Upload_Avatar_02 - Step 01: Login with Employee role: benton.lindgren, j13bdsdmbv
+[INFO ] [2022-01-06 18:42:58,715] Upload_Avatar_02 - Step 02: Open 'Personal Details' page
+[INFO ] [2022-01-06 18:43:39,466] Personal_Details_03 - Step 01: Open 'Personal Details' form at sidebar
+[INFO ] [2022-01-06 18:43:53,006] Post-Condition: Close browser 'firefox'
+[INFO ] [2022-01-06 18:43:53,007] OS name = mac os x
+[INFO ] [2022-01-06 18:43:53,007] Driver instance name = mac os x
+[INFO ] [2022-01-06 18:43:53,012] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb

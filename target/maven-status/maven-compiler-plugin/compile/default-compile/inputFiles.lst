@@ -16,6 +16,7 @@
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/pageUIs/user/nopCommerce/HomePageUI.java
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/pageUIs/admin/nopCommerce/ProductDetailPageUI.java
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/utilities/MailConfig.java
+/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/retryConfig/RetryListener.java
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/pageObjects/hrm/LoginPO.java
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/utilities/PdfConfig.java
 /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/src/main/java/pageObjects/user/nopCommerce/PageGeneratorManager.java

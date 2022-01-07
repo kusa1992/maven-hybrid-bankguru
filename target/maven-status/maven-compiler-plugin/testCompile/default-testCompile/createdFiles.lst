@@ -4,6 +4,7 @@ com/bankguru/login/Level_02_Register_Login_Page_2.class
 com/data/hrm/Employee$Role.class
 com/data/hrm/Employee$Job.class
 com/bankguru/payment/Payment_02_Deposit.class
+com/hrm/employee/Automation_Demo.class
 com/nopcommerce/login/Level_13_Register_Login_Log_ExtentReport_V3.class
 com/data/hrm/Employee$Dependents.class
 com/liveguru/login/Level_04_Register_Login_Multiple_Browser.class

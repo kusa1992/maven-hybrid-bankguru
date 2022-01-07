@@ -155,6 +155,7 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		if (driver.toString().contains("internet explorer")) {
 			clickToElementByJS(driver, locator);
 			// Button/ link/ radio/ checkbox,..
@@ -166,6 +167,7 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... params) {
+		highlightElement(driver, locator, params);
 		if (driver.toString().contains("internet explorer")) {
 			clickToElementByJS(driver, getDynamicLocator(locator, params));
 			sleepInSecond(2);
@@ -175,12 +177,14 @@ public class BasePage {
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value) {
+		highlightElement(driver, locator);
 		getElement(driver, locator).clear();
 		getElement(driver, locator).sendKeys(value);
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value, String... params) {
 		locator = getDynamicLocator(locator, params);
+		highlightElement(driver, locator);
 		getElement(driver, locator).clear();
 		getElement(driver, locator).sendKeys(value);
 	}
@@ -259,6 +263,7 @@ public class BasePage {
 	}
 
 	public void checkToCheckboxOrRadio(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		if (!isElementSelected(driver, locator)) {
 			if (driver.toString().contains("internet explorer")) {
 				clickToElementByJS(driver, locator);
@@ -270,6 +275,7 @@ public class BasePage {
 
 	public void checkToCheckboxOrRadio(WebDriver driver, String locator, String... params) {
 		locator = getDynamicLocator(locator, params);
+		highlightElement(driver, locator);
 		if (!isElementSelected(driver, locator)) {
 			if (driver.toString().contains("internet explorer")) {
 				clickToElementByJS(driver, locator);
@@ -280,6 +286,7 @@ public class BasePage {
 	}
 
 	public void uncheckToCheckbox(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		if (isElementSelected(driver, locator)) {
 			if (driver.toString().contains("internet explorer")) {
 				clickToElementByJS(driver, locator);
@@ -290,6 +297,7 @@ public class BasePage {
 	}
 
 	public Boolean isElementDisplayed(WebDriver driver, String locator) {
+		highlightElement(driver, locator);
 		try {
 			// Displayed: Visible on UI + In DOM
 			// Undisplayed: Invisible on UI + In DOM
@@ -417,6 +425,15 @@ public class BasePage {
 	public void highlightElement(WebDriver driver, String locator) {
 		jsExecutor = (JavascriptExecutor) driver;
 		WebElement element = getElement(driver, locator);
+		String originalStyle = element.getAttribute("style");
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
+		sleepInSecond(1);
+		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", originalStyle);
+	}
+	
+	public void highlightElement(WebDriver driver, String locator, String...params) {
+		jsExecutor = (JavascriptExecutor) driver;
+		WebElement element = getElement(driver, getDynamicLocator(locator, params));
 		String originalStyle = element.getAttribute("style");
 		jsExecutor.executeScript("arguments[0].setAttribute(arguments[1], arguments[2])", element, "style", "border: 2px solid red; border-style: dashed;");
 		sleepInSecond(1);

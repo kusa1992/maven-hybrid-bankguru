@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="HRM">
+<suite name="HRM" parallel = "tests" thread-counts = "2">
 	<parameter name="url" value="https://opensource-demo.orangehrmlive.com" />
 
 	<listeners>
@@ -11,9 +11,19 @@
 		<listener class-name="reportConfig.ReportNGListener" />
 	</listeners>
 
-
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<parameter name="ipAddress" value="http://192.168.43.118" />
+		<parameter name="port" value="6666" />
+		<classes>
+			<class name="com.hrm.employee.Level_16_Live_Coding" />
+		</classes>
+	</test>
+	
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="firefox" />
+		<parameter name="ipAddress" value="http://192.168.43.118" />
+		<parameter name="port" value="6666" />
 		<classes>
 			<class name="com.hrm.employee.Level_16_Live_Coding" />
 		</classes>

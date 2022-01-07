@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.477" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="324.631" tests="6" errors="0" skipped="0" failures="6">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -11,7 +11,6 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="envMaven" value="PROD"/>
     <property name="user.timezone" value=""/>
     <property name="user.country.format" value="JP"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -19,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire/surefirebooter5975093942132056928.jar /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire 2021-12-14T18-12-51_932-jvmRun1 surefire8550578128744825271tmp surefire_02057197356389697116tmp"/>
+    <property name="sun.java.command" value="/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire/surefirebooter1094286102139489615.jar /Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire 2022-01-06T18-38-28_950-jvmRun1 surefire5785943709061708036tmp surefire_03357563440267319042tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/test-classes:/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/classes:/Users/thao/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/thao/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/thao/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/thao/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/thao/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/thao/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/thao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/thao/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/thao/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/thao/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/thao/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/thao/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/thao/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/thao/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/thao/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/thao/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/thao/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/thao/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/thao/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/thao/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/thao/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/thao/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/thao/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/thao/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/thao/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar:/Users/thao/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar:/Users/thao/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/thao/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/thao/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/thao/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/thao/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/thao/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/thao/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/thao/.m2/repository/joda-time/joda-time/2.0/joda-time-2.0.jar:/Users/thao/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/thao/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/Users/thao/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/thao/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar:/Users/thao/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/thao/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/thao/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/thao/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/thao/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/thao/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/thao/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/thao/.m2/repository/io/qameta/allure/allure-testng/2.13.5/allure-testng-2.13.5.jar:/Users/thao/.m2/repository/io/qameta/allure/allure-java-commons/2.13.5/allure-java-commons-2.13.5.jar:/Users/thao/.m2/repository/io/qameta/allure/allure-model/2.13.5/allure-model-2.13.5.jar:/Users/thao/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/thao/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/thao/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar:/Users/thao/.m2/repository/org/aeonbits/owner/owner/1.0.10/owner-1.0.10.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire/surefirebooter5975093942132056928.jar:/Users/thao/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="/Users/thao/Documents/Automation class/04 - Maven Framework/maven-hybrid-bankguru/target/surefire/surefirebooter1094286102139489615.jar:/Users/thao/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,15 +62,166 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Employee_01_Add_New_Employee" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.079"/>
-  <testcase name="Employee_02_Upload_Avatar" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.004"/>
-  <testcase name="Employee_03_Personal_Details" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.001"/>
-  <testcase name="Employee_04_Contact_Details" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0"/>
-  <testcase name="Employee_05_Emergency_Contacts" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.003"/>
-  <testcase name="Employee_06_Assigned_Dependents" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.009"/>
-  <testcase name="Employee_07_Edit_View_Job" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0"/>
-  <testcase name="Employee_08_Edit_View_Salary" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.001"/>
-  <testcase name="Employee_09_Edit_View_Tax" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.003"/>
-  <testcase name="Employee_10_Qualifications" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.004"/>
-  <testcase name="Employee_11_Search_Employee" classname="com.bankguru.payment.Level_21_Multiple_Enviroment" time="0.002"/>
+  <testcase name="Employee_01_Add_New_Employee" classname="com.hrm.employee.Automation_Demo" time="68.237">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='resultTable']/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//table[@id='resultTable']/tbody/tr[1]/td[2]}
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[INFO ] [2022-01-06 18:38:34,283] Pre-Condition - Step 01: Open browser 'chrome' and navigate to 'https://opensource-demo.orangehrmlive.com'
+Driver init at Base Test = ChromeDriver: chrome on MAC (e4a0f4b74a4bf7b86a7ea323a2a912a8)
+[INFO ] [2022-01-06 18:38:44,582] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2022-01-06 18:38:51,330] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2022-01-06 18:38:57,845] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2022-01-06 18:38:59,919] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Magda
+[INFO ] [2022-01-06 18:39:01,420] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Luettgen
+[INFO ] [2022-01-06 18:39:02,803] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2022-01-06 18:39:02,931] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2022-01-06 18:39:04,239] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: milton.adams
+[INFO ] [2022-01-06 18:39:05,765] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:39:07,190] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:39:08,515] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2022-01-06 18:39:08,668] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2022-01-06 18:39:10,800] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2022-01-06 18:39:15,750] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Magda Luettgen
+[INFO ] [2022-01-06 18:39:15,759]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:39:17,093]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:39:17,093] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2022-01-06 18:39:18,786] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 47054
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1641461917.249][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1641461917.249][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Jan 06, 2022 6:38:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Employee_01_Add_New_Employee" classname="com.hrm.employee.Automation_Demo" time="63.449">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='resultTable']/tbody/tr[1]/td[2] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //table[@id='resultTable']/tbody/tr[1]/td[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//table[@id='resultTable']/tbody/tr[1]/td[2]}
+	at com.hrm.employee.Automation_Demo.Employee_01_Add_New_Employee(Automation_Demo.java:101)
+</failure>
+    <system-out><![CDATA[[INFO ] [2022-01-06 18:41:31,883] Post-Condition: Close browser 'chrome'
+[INFO ] [2022-01-06 18:41:31,884] OS name = mac os x
+[INFO ] [2022-01-06 18:41:31,884] Driver instance name = mac os x
+Driver instance = ChromeDriver: chrome on MAC (e4a0f4b74a4bf7b86a7ea323a2a912a8)
+[INFO ] [2022-01-06 18:41:32,310] Pre-Condition - Step 01: Open browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+Driver init at Base Test = FirefoxDriver: firefox on MAC (f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb)
+[INFO ] [2022-01-06 18:41:40,031] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2022-01-06 18:41:46,641] Add_New_01 - Step 01: Open 'Employee List' page
+[INFO ] [2022-01-06 18:41:51,130] Add_New_01 - Step 02: Click to 'Add' button
+[INFO ] [2022-01-06 18:41:52,893] Add_New_01 - Step 03: Enter valid info to 'First Name' textbox with value: Audrey
+[INFO ] [2022-01-06 18:41:54,049] Add_New_01 - Step 04: Enter valid info to 'Last Name' textbox with value: Bayer
+[INFO ] [2022-01-06 18:41:55,209] Add_New_01 - Step 05: Get value of 'Employee ID'
+[INFO ] [2022-01-06 18:41:55,314] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2022-01-06 18:41:56,707] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox with value: benton.lindgren
+[INFO ] [2022-01-06 18:41:57,964] Add_New_01 - Step 08: Enter valid info to 'Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:41:59,142] Add_New_01 - Step 09: Enter valid info to 'Confirm Password' textbox with value: j13bdsdmbv
+[INFO ] [2022-01-06 18:42:00,336] Add_New_01 - Step 10: Select 'Enabled' value in 'Status' dropdown
+[INFO ] [2022-01-06 18:42:00,417] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2022-01-06 18:42:02,362] Add_New_01 - Step 12: Open 'Employee List' page
+[INFO ] [2022-01-06 18:42:06,175] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox with value: Audrey Bayer
+[INFO ] [2022-01-06 18:42:06,707]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:42:07,891]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-01-06 18:42:07,891] Add_New_01 - Step 14: Click 'Search' button
+[INFO ] [2022-01-06 18:42:09,527] Add_New_01 - Step 15: Verify Employee Information is displayed at 'Result Table'
+]]></system-out>
+    <system-err><![CDATA[Jan 06, 2022 6:41:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Employee_02_Upload_Avatar" classname="com.hrm.employee.Automation_Demo" time="49.188">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id=&apos;mainMenu&apos;]//a[string()=&apos;My Info&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='mainMenu']//a[string()='My Info']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+</failure>
+    <system-out><![CDATA[[INFO ] [2022-01-06 18:40:00,792] Upload_Avatar_02 - Step 01: Login with Employee role: milton.adams, j13bdsdmbv
+[INFO ] [2022-01-06 18:40:09,414] Upload_Avatar_02 - Step 02: Open 'Personal Details' page
+]]></system-out>
+  </testcase>
+  <testcase name="Employee_02_Upload_Avatar" classname="com.hrm.employee.Automation_Demo" time="48.907">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id=&apos;mainMenu&apos;]//a[string()=&apos;My Info&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
+	at com.hrm.employee.Automation_Demo.Employee_02_Upload_Avatar(Automation_Demo.java:116)
+</failure>
+    <system-out><![CDATA[[INFO ] [2022-01-06 18:42:50,957] Upload_Avatar_02 - Step 01: Login with Employee role: benton.lindgren, j13bdsdmbv
+[INFO ] [2022-01-06 18:42:58,715] Upload_Avatar_02 - Step 02: Open 'Personal Details' page
+]]></system-out>
+  </testcase>
+  <testcase name="Employee_03_Personal_Details" classname="com.hrm.employee.Automation_Demo" time="40.723">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id=&apos;sidebar&apos;]//a[string()=&apos;Personal Details&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='sidebar']//a[string()='Personal Details'] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='sidebar']//a[string()='Personal Details']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/rs/mw_q98fd005...}, goog:chromeOptions: {debuggerAddress: localhost:59887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4a0f4b74a4bf7b86a7ea323a2a912a8
+*** Element info: {Using=xpath, value=//div[@id='sidebar']//a[string()='Personal Details']}
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+</failure>
+    <system-out><![CDATA[[INFO ] [2022-01-06 18:40:50,772] Personal_Details_03 - Step 01: Open 'Personal Details' form at sidebar
+]]></system-out>
+  </testcase>
+  <testcase name="Employee_03_Personal_Details" classname="com.hrm.employee.Automation_Demo" time="13.502">
+    <failure message="TypeError: browsingContext.currentWindowGlobal is null&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Thaos-MacBook.local&apos;, ip: &apos;192.168.43.118&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;sidebar&apos;]//a[string()=&apos;Personal Details&apos;]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Thaos-MacBook.local', ip: '192.168.43.118', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11884, moz:profile: /var/folders/rs/mw_q98fd005..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 21.1.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f64c6aea-12a3-4f19-83a9-3a4fa40e2dcb
+*** Element info: {Using=xpath, value=//div[@id='sidebar']//a[string()='Personal Details']}
+	at com.hrm.employee.Automation_Demo.Employee_03_Personal_Details(Automation_Demo.java:141)
+</failure>
+    <system-out><![CDATA[[INFO ] [2022-01-06 18:43:39,466] Personal_Details_03 - Step 01: Open 'Personal Details' form at sidebar
+]]></system-out>
+  </testcase>
 </testsuite>

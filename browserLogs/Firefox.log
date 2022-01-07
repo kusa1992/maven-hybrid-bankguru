@@ -1,9 +1,11 @@
-1639473177912	geckodriver	INFO	Listening on 127.0.0.1:47125
-1639473178525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rs/mw_q98fd0059_mfg5__bl5f40000gn/T/rust_mozprofile8tLJLQ"
-1639473179188	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rs/mw_q98fd0059_mfg5__bl5f40000gn/T/rust_mozprofile8tLJLQ/search.json.mozlz4", (void 0)))
+1641462092385	geckodriver	INFO	Listening on 127.0.0.1:3271
+1641462092433	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/rs/mw_q98fd0059_mfg5__bl5f40000gn/T/rust_mozprofileytWFVR"
+1641462093214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/rs/mw_q98fd0059_mfg5__bl5f40000gn/T/rust_mozprofileytWFVR/search.json.mozlz4", (void 0)))
 console.error: BackgroundUpdate: 
   _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
-1639473182048	Marionette	INFO	Listening on port 54915
-1639473182195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1639473185969	Marionette	INFO	Stopped listening on port 54915
+1641462096641	Marionette	INFO	Listening on port 60025
+1641462096749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+

@@ -24,6 +24,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -131,7 +132,7 @@ public class BaseTest {
 			throw new RuntimeException("Please enter the correct browser name!");
 		}
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get(appUrl);
 
 		System.out.println("Driver init at Base Test = " + driver.toString());
@@ -228,7 +229,7 @@ public class BaseTest {
 		return checkEquals(actual, expected);
 	}
 
-	@BeforeTest
+	@BeforeSuite
 	public void deleteAllFilesInAllureJson() {
 		try {
 			String workingDir = System.getProperty("user.dir");
@@ -236,7 +237,7 @@ public class BaseTest {
 			File file = new File(pathFolderDownload);
 			File[] listOfFiles = file.listFiles();
 			for (int i = 0; i < listOfFiles.length; i++) {
-				if (listOfFiles[i].isFile()) {
+				if (listOfFiles[i].isFile() && !listOfFiles[i].getName().contains("environment.properties")) {
 					new File(listOfFiles[i].toString()).delete();
 				}
 			}
